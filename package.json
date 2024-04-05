@@ -1,0 +1,30 @@
+{
+  "name": "solana-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Booze33/phoenix-trader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Booze33/phoenix-trader/issues"
+  },
+  "homepage": "https://github.com/Booze33/phoenix-trader#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.2",
+    "@solana/web3.js": "^1.91.4",
+    "node-fetch": "^3.3.2"
+  }
+}
